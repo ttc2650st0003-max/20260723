@@ -1,0 +1,42 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background: #f3e5f5;
+  border-top: 4px solid #8e24aa;
+  border-bottom: 4px solid #8e24aa;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 8px 0;
+  padding: 0 16px;
+  border-right: 1px solid #8e24aa;
+}
+
+/* 最後だけ線を消す */
+li:last-child {
+  border-right: none;
+}
+
+a {
+  color: #4a148c;
+}
+
+a:hover {
+  text-decoration: none;
+}
